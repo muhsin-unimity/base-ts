@@ -1,0 +1,3 @@
+interface EnvConfig {
+  apiUrl: string;
+}

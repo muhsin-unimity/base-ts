@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+
+.container > label {
+  margin-bottom: 5px;
+  font-size: 0.75rem;
+}
+
+.container > input {
+  width: 100%;
+  font-size: 0.7rem;
+  /* font-family: var(--fnt-secondary); */
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  /* background-color: var(--clr-bg-primary); */
+  background-color: #f0f2f5;
+  transition: border-color 0.2s;
+}
+
+.container > input::placeholder {
+  color: #d8d8d8;
+}
+
+.container > input:focus {
+  /* border-color: var(--clr-lightGrey); */
+  border-color: #748e63;
+}
+
+.container > p {
+  margin-top: 5px;
+  font-size: 0.65rem;
+  color: red;
+  transition: all 0.2s;
+}
+
+.errorMessageHide {
+  opacity: 0;
+}
+
+.errorMessageShow {
+  opacity: 1;
+}
