@@ -125,14 +125,14 @@ function App() {
         <PrimaryButton width="200px" text="BUTTON" showLoader={false} />
       </div> */}
 
-      {/* <div style={{ width: "400px" }}>
+      <div style={{ width: "400px" }}>
         <Cropper
           aspectRatio={0.5}
           src={profilePicImg}
           setCroppedImage={setCroppedImage}
         />
       </div>
-      <img src={croppedImage || ""} alt="img" /> */}
+      <img src={croppedImage || ""} alt="img" />
     </div>
   );
 }
